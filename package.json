@@ -1,0 +1,14 @@
+{
+  "name": "travelbuddy-cabs",
+  "version": "1.0.0",
+  "description": "Campus shuttle and reservation management REST API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  }
+}
