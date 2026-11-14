@@ -111,6 +111,37 @@ Use the IDs returned by the passenger and shuttle requests:
 ### Joined reservations – GET `/reservations`
 Returns reservation information together with passenger name and shuttle name using SQL `JOIN`.
 
+## API screenshots
+
+The following Postman screenshots show the API requests and responses:
+
+### Get all shuttles
+![Get all shuttles](./screenshots/get_all_shuttles.png)
+
+### Get one shuttle
+![Get one shuttle](./screenshots/GET_one_shuttle.png)
+
+### Add a shuttle
+![Add a shuttle](./screenshots/ADD_shuttle.png)
+
+### Update a shuttle
+![Update a shuttle](./screenshots/UPDATE_shuttle.png)
+
+### Delete a shuttle
+![Delete a shuttle](./screenshots/DELETE_shuttle.png)
+
+### Create a passenger
+![Create a passenger](./screenshots/Create_passenger.png)
+
+### Create a reservation
+![Create a reservation](./screenshots/Create_reservation.png)
+
+### Joined reservations
+![Joined reservations](./screenshots/JOIN_endpoint.png)
+
+### Custom twist
+![Custom twist](./screenshots/Custom_twist.png)
+
 ## HTTP status codes
 - `200`: successful GET, update, or delete.
 - `201`: resource created.
@@ -122,4 +153,4 @@ Returns reservation information together with passenger name and shuttle name us
 ## Notes
 - Data is stored in the local SQLite file `travelbuddy.db`.
 - Do not upload real personal passenger information to a public repository.
-- The assignment brief asks for Postman evidence and a README. Save your own screenshots in a `screenshots/` folder before submission.
+- The screenshots above are stored in the `screenshots/` folder.
